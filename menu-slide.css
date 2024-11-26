@@ -1,0 +1,470 @@
+.menu-slide-bg {
+  width: 860px;
+  height: 1003px;
+  position: relative;
+  box-shadow: var(--drop-shadow-600);
+  background-color: var(--footer-text);
+  display: none;
+  max-width: 100%;
+}
+.close {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  z-index: 1;
+}
+.logo-icon,
+.logo-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.logo-icon1 {
+  z-index: 2;
+}
+.logo-container {
+  width: 15.5px;
+  height: 15.5px;
+  position: relative;
+}
+.header6,
+.window {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header6 {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.window {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.community-life1,
+.home1 {
+  position: relative;
+  line-height: 80px;
+}
+.home1 {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+  cursor: pointer;
+  z-index: 3;
+}
+.community-life1 {
+  z-index: 1;
+}
+.home-parent,
+.main-content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.home-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.main-content1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.about14 {
+  position: relative;
+  line-height: 80px;
+  cursor: pointer;
+  z-index: 2;
+}
+.about-wrapper {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) var(--padding-7xs) 0;
+}
+.hline-icon {
+  height: 0.3px;
+  width: 602px;
+  right: -186px;
+  bottom: 103.5px;
+  z-index: 1;
+}
+.hline-icon,
+.hline-icon1,
+.the-units2 {
+  position: absolute;
+  margin: 0 !important;
+}
+.hline-icon1 {
+  height: 0.3px;
+  width: 602px;
+  top: 251px;
+  right: -179px;
+  z-index: 1;
+}
+.the-units2 {
+  top: -46px;
+  right: -28px;
+  line-height: 80px;
+  display: inline-block;
+  min-width: 116px;
+  cursor: pointer;
+  z-index: 2;
+}
+.underline-link-icon {
+  width: 85px;
+  height: 1px;
+  position: relative;
+  z-index: 1;
+}
+.region13 {
+  position: relative;
+  line-height: 80px;
+  cursor: pointer;
+  z-index: 3;
+}
+.cursor-pointer-icon {
+  height: 40px;
+  width: 38px;
+  position: absolute;
+  margin: 0 !important;
+  top: -34px;
+  right: 5px;
+  z-index: 4;
+}
+.region-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.join17 {
+  position: relative;
+  line-height: 80px;
+  cursor: pointer;
+  z-index: 1;
+}
+.region-target {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.phone-icon1 {
+  height: 48px;
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phone-digits,
+.phone-icon1 {
+  position: relative;
+  z-index: 1;
+}
+.phone-action,
+.phone-container,
+.phone-number {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phone-number {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.phone-action,
+.phone-container {
+  flex-direction: row;
+}
+.phone-action {
+  flex: 1;
+  gap: var(--gap-sm);
+}
+.phone-container {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-4xs);
+  font-family: var(--bullet-text);
+}
+.contact-item {
+  flex: 1;
+  flex-direction: column;
+  gap: 42px;
+}
+.contact-item,
+.contact-item-wrapper,
+.region-action {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-item-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  color: var(--normal-text);
+  font-family: var(--button-text);
+}
+.region-action {
+  flex-direction: column;
+  gap: 112px;
+}
+.blog,
+.gallery {
+  position: relative;
+  line-height: 80px;
+  z-index: 3;
+}
+.blog {
+  z-index: 1;
+}
+.blog-item,
+.gallery-blog,
+.region-button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blog-item {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+}
+.gallery-blog,
+.region-button {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.region-button {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.inforiverhavenhomes1 {
+  position: relative;
+  text-decoration: underline;
+  z-index: 1;
+}
+.mail-address,
+.mail-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mail-address {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.mail-container {
+  flex-direction: row;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.footer6 {
+  flex-direction: row;
+  padding: 0 11px;
+  box-sizing: border-box;
+  color: var(--body-link);
+}
+.footer6,
+.region-container,
+.region-item,
+.region-link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.region-item {
+  flex: 1;
+  flex-direction: column;
+  gap: 22px;
+}
+.region-container,
+.region-link {
+  align-self: stretch;
+}
+.region-container {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.region-link {
+  flex-direction: column;
+  gap: 9px;
+}
+.facebook-24px-1-icon7,
+.instagram-1-icon7 {
+  height: 37.8px;
+  width: 37.8px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.instagram-1-icon7 {
+  height: 35.6px;
+  width: 35.6px;
+  object-fit: contain;
+}
+.social-container,
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social-icons {
+  justify-content: flex-start;
+  gap: 47.8px;
+}
+.social-container {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.social {
+  width: 361.2px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  color: var(--normal-text);
+  font-family: var(--button-text);
+}
+.hline-parent,
+.region-contact,
+.social {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.region-contact {
+  height: 677.8px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xl) 0 172.8px;
+  box-sizing: border-box;
+  gap: 135px;
+}
+.hline-parent {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+}
+.navigation6 {
+  width: 423px;
+  height: 723.8px;
+  position: relative;
+  max-width: 100%;
+}
+.content1 {
+  width: 529px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--bullet-text-size);
+  color: var(--highlight-text);
+  font-family: var(--bullet-text);
+}
+.body1,
+.menu-slide12 {
+  display: flex;
+  box-sizing: border-box;
+}
+.body1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-31xl) 0 0;
+  max-width: 100%;
+}
+.menu-slide12 {
+  width: 860px;
+  position: relative;
+  box-shadow: var(--drop-shadow-600);
+  background-color: var(--footer-text);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 19px var(--padding-13xl) 113.2px;
+  gap: var(--gap-24xl);
+  line-height: normal;
+  letter-spacing: normal;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--mdr-text-size);
+  color: var(--normal-text);
+  font-family: var(--bullet-text);
+}
+@media screen and (max-width: 600px) {
+  .body1 {
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about14,
+  .join17,
+  .region13,
+  .the-units2 {
+    font-size: var(--font-size-2xl);
+    line-height: 64px;
+  }
+  .phone-digits {
+    font-size: var(--font-size-2xl);
+  }
+  .region-action {
+    flex: 1;
+  }
+  .blog,
+  .gallery {
+    font-size: var(--font-size-2xl);
+    line-height: 64px;
+  }
+  .gallery-blog {
+    flex: 1;
+  }
+  .region-button {
+    flex-wrap: wrap;
+  }
+  .inforiverhavenhomes1 {
+    font-size: var(--font-size-2xl);
+  }
+  .mail-container,
+  .social-container {
+    flex-wrap: wrap;
+  }
+  .region-contact {
+    height: auto;
+    gap: 67px;
+  }
+  .navigation6 {
+    height: auto;
+    min-height: 723.8;
+  }
+  .menu-slide12 {
+    gap: var(--gap-2xl);
+  }
+}
